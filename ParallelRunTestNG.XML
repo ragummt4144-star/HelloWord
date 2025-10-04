@@ -1,0 +1,13 @@
+<suite name="ParallelSuite" parallel="classes" thread-count="2">
+    <test name="Deice1">
+        <classes>
+            <class name="wentrite.TwoDiveces.Device1"/>
+        </classes>
+    </test>
+
+    <test name="Device2">
+        <classes>
+            <class name="wentrite.TwoDiveces.Device2"/>
+        </classes>
+    </test>
+</suite>
